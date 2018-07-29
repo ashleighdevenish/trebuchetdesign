@@ -111,8 +111,39 @@ button:active {
     background-color: #c0c0c0;
 }
 
+.content {
+    background-color: #ffffff;
+    height: calc(100vh - 50px);
+}
 
-#login, #connected, #connectedMobile {
+
+button {
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #333333;
+    border: none;
+    padding: 5px 15px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button:active {
+    background-color: #c0c0c0;
+}
+
+.recenter {
+    background-color: #f7931e;
+}
+
+button:active {
+    background-color: #f49e06;
+}
+
+draw {
+    border-radius: 50%;
+}
+
+#login, #connected, #loginMobile {
     display: none;
 }
 
