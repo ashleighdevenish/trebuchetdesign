@@ -19,8 +19,14 @@ h1,p{
 
 #login {
     width: 100%;
-    font-size: 24pt;
+    font-size: 16pt;
     padding-top: 10vh;
+}
+
+#loginMobile {
+    width: 100%;
+    font-size: 18pt;
+    padding-top: 20vh;
 }
 
 #loginCode {
@@ -55,16 +61,26 @@ h1,p{
     margin-bottom: -7px;
 }
 
-.bold {
+h1 {
+    font-size: 24pt;
     font-weight: 700;
+}
+
+#login p, #loginMobile p {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .canvas {
     border-radius: 15px;
     background-color: #ffffff;
-    width: 95%;
-    height: calc(90vh - 50px);
-    margin: 5vh auto 0 auto;
+    width: calc(100vh - 50px);
+    height: calc(100vh - 100px);
+    margin: 25px 25px 0 25px;
     filter: drop-shadow(2px 2px 2px rgba(114, 75, 3, 0.5)); /* (offset-x offset-y blur-radius spread-radius color) */
+}
+
+#login, #connected, #connectedMobile {
+    display: none;
 }
 
